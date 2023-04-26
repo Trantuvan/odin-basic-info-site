@@ -4,9 +4,9 @@
   "description": "Basic node-js server side render",
   "main": "index.js",
   "scripts": {
-    "build": "rimraf ./build && tsc",
+    "build": "rimraf ./dist && tsc",
     "dev": "nodemon",
-    "start": "npm run build && node build/index.js"
+    "start": "npm run build && node dist/index.js"
   },
   "keywords": [],
   "author": "",
